@@ -13,3 +13,10 @@ body.style.alignItems = 'center';
 body.style.justifyContent = 'center';
 // h1
 h1.style.textAlign = 'center';
+// .category
+const categoryClassElements = document.querySelectorAll('.category');
+categoryClassElements.forEach(el => {
+    el.style.color = 'rgb(10.6%, 0%, 44.5%)';
+    el.style.fontStyle = 'italic';
+    el.style.textDecoration = 'underline';
+});
